@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Revamp Live PR Task</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9fbfd;
+      color: #1c1c1c;
+    }
+
+    header {
+      background-color: white;
+      color: #1c1c1c;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 48px;
+      margin-right: 12px;
+    }
+
+    .logo h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      color: #1c1c1c;
+    }
+
+    nav a {
+      color: #1c1c1c;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-color: #dbe9ff;
+      padding: 60px 40px 40px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #0a3d91;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .task-container {
+      max-width: 800px;
+      background-color: #ffffff;
+      padding: 40px;
+      margin: 40px auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #0a3d91;
+      margin-bottom: 10px;
+    }
+
+    .task-box {
+      background-color: #f1f7ff;
+      border-left: 5px solid #0a3d91;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .task-box code {
+      background-color: #e2e8f0;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    .instructions li {
+      margin: 12px 0;
+    }
+
+    section#highlights {
+      padding: 40px;
+      background-color: #f8faff;
+    }
+
+    section#highlights h4 {
+      color: #0047ab;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      padding: 16px;
+      margin: 12px 0;
+      background: #eaf2ff;
+      border-radius: 10px;
+    }
+
+    section#about {
+      padding: 40px;
+    }
+
+    footer {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="https://ik.imagekit.io/cotszrkgk/S-removebg-preview.png?updatedAt=1750428124754" alt="Revamp Logo" />
+    </div>
+    
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>🚀 Welcome to the Live PR Task</h2>
+    <p>Edit this file to simulate a real open source contribution. Follow the task below 👇</p>
+  </section>
+
+  <!-- Task Instructions -->
+  <section class="task-container">
+    <h3>🛠️ Your Task</h3>
+    <div class="task-box">
+      <p><strong>You need to make a contribution in this file itself.</strong></p>
+      <ul class="instructions">
+        <li>➕ Add a new <code>&lt;div class="highlight"&gt;</code> inside <code>&lt;section id="highlights"&gt;</code> with a fake event highlight.</li>
+        <li>🔧 Fix the broken/missing style or layout issues in this file.</li>
+        <li>📝 Correct typos or improve the paragraph in <code>&lt;section id="about"&gt;</code>.</li>
+      </ul>
+      <p>Then open a Pull Request with a clear title like:<br/>
+        <code>Fix: Added new event highlight</code> or <code>Fix: Corrected typo in about section</code></p>
+    </div>
+  </section>
+
+  <!-- Highlights Section -->
+  <section id="highlights">
+    <h4 style="color: blueviolet;">🌟 Event Highlights</h4> <!-- TODO: Fix this style -->
+
+    <div>
+      <strong>Open Source 101</strong><br/>
+      Introduction to Git & GitHub for beginers. <!-- TODO: Typo: "beginers" -->
+    </div>
+
+    <!-- 👇 Add your own <div class="highlight"> here -->
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h4>About Revamp</h4>
+    <p>
+      Revamp is a student-led initiative that help students explore, build, and contribute in college. <!-- TODO: Grammar issue -->
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Revamp Community | Live PR Demo | Happy Hacking! 💙
+  </footer>
+
+</body>
+</html>
